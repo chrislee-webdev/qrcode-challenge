@@ -3,32 +3,39 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
 }
 
 .main {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-   background-color: white;
-   border-radius: 5%;
-   width:fit-content;
+    background-color: white;
+    text-align: center;
+    width: 75%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
-    display: block;
-    padding: 15px;
-    margin-top: 5px;
+    width: 75%;
     border-radius: 5%;
+    margin-top: 15px;
 }
 
-.improve {
+.text {
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bold {
     font-weight: bold;
-    line-height: 2rem;
+    margin-bottom: 10px;
 }
 
 .scan {
-    margin-bottom: 15px;
+    font-size: .75em;
 }
